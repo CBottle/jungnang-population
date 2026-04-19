@@ -477,7 +477,7 @@ function initMap() {
     zmid: isChg ? 0 : undefined,
     colorbar:{title:{text:isChg?'변화율(%)':'인구수'},thickness:12,len:.6,tickfont:{size:9}},
     hovertemplate:'<b>%{location}</b><br>'+(isChg?'%{z:.1f}%':'%{z:,}명')+'<extra></extra>',
-    marker:{opacity:.9,line:{color:'white',width:1.5}},
+    marker:{opacity:.5,line:{color:'rgba(255,255,255,.8)',width:1.5}},
   }],{
     mapbox:{style:'carto-positron',center:{lat:37.606,lon:127.093},zoom:12.3},
     margin:{t:0,b:0,l:0,r:0},
