@@ -339,7 +339,8 @@ select:focus{border-color:rgba(99,102,241,.5);background:rgba(255,255,255,.9)}
 }
 .stat-item .sl{font-size:.65rem;color:#9ca3af;margin-bottom:2px;letter-spacing:.3px}
 .stat-item .sv{font-size:.95rem;font-weight:700;color:#111827}
-.pos{color:#ef4444}.neg{color:#3b82f6}
+.stat-item .sv.pos{color:#ef4444}
+.stat-item .sv.neg{color:#3b82f6}
 
 .year-bar{
   background:rgba(255,255,255,.45);
