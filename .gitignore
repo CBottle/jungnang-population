@@ -1,0 +1,6 @@
+*.pyc
+__pycache__/
+geojson_check.txt
+match_debug.txt
+integrity_check.txt
+data/
